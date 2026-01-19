@@ -38,7 +38,6 @@ layout: cover
 <div class="flex flex-col items-center justify-center h-full gap-6">
   <p class="text-4xl">OK, for those who don't sit 24/7 on Twitter...</p>
   <p class="text-6xl font-bold mt-4">I see you 👀</p>
-  <p class="text-2xl opacity-60 mt-4">*(points at crowd)*</p>
 </div>
 
 ---
@@ -93,7 +92,7 @@ layout: cover
 <div class="grid grid-cols-5 gap-6 h-full items-center px-4">
   <div class="col-span-3 text-left">
     <pre class="bg-[#1a1a2e] p-4 rounded-xl text-sm font-mono overflow-x-auto"><code class="text-green-300">while :; do
-  cat PROMPT.md | claude-code  <span class="text-gray-500"># or cursor agent</span>
+  cat PROMPT.md | agent  <span class="text-gray-500"># or claude-code</span>
   <span class="text-gray-500"># Agent reads files, git history, specs each run</span>
   <span class="text-gray-500"># Fresh context every iteration!</span>
 done</code></pre>
@@ -153,8 +152,7 @@ done</code></pre>
 
 ---
 
-# Prerequisites for Ralph Loop
-
+# You should know
 <div class="grid grid-cols-2 gap-4 px-4">
 <div class="bg-cyan-500/10 border border-cyan-500/30 p-3 rounded-xl">
 <h3 class="text-lg font-bold mb-2 text-cyan-400">🛠️ Tools Required</h3>
@@ -223,11 +221,11 @@ agrimsingh/ralph-wiggum-cursor/main/install.sh | bash</code></pre>
 <div class="bg-green-500/10 border border-green-500/30 p-6 rounded-xl">
   <h3 class="text-2xl font-bold mb-4 text-green-400">✅ Great For</h3>
   <ul class="text-lg space-y-3 text-left">
-    <li>🔧 **Refactoring** codebases</li>
-    <li>🧪 **Writing tests**</li>
-    <li>🔄 **Migrating** frameworks</li>
-    <li>📝 **Implementing** specs</li>
-    <li>🐛 **Fixing** bug batches</li>
+    <li>🔧 Refactoring codebases</li>
+    <li>🧪 Writing tests</li>
+    <li>🔄 Migrating frameworks</li>
+    <li>📝 Implementing specs</li>
+    <li>🐛 Fixing bug batches</li>
   </ul>
 </div>
 
@@ -371,24 +369,20 @@ agrimsingh/ralph-wiggum-cursor/main/install.sh | bash</code></pre>
 
 # 🍉 Fruit Ninja Clone
 
-<div class="flex flex-col items-center justify-center h-full gap-6">
-  <h2 class="text-4xl font-bold">The Demo Project</h2>
-  <p class="text-2xl opacity-80">A Fruit Ninja clone built entirely with Ralph Loop</p>
-  
-  <div class="grid grid-cols-2 gap-12 mt-8">
-    <div class="bg-white/5 p-6 rounded-xl">
-      <p class="text-lg font-bold text-cyan-400 mb-2">⏱️ Time</p>
-      <p class="text-3xl font-bold">~40 minutes</p>
-    </div>
-    <div class="bg-white/5 p-6 rounded-xl">
-      <p class="text-lg font-bold text-green-400 mb-2">💰 Cost</p>
-      <p class="text-3xl font-bold">~$8.98</p>
-    </div>
-  </div>
-
-  <a href="https://fruit-ninja-liard.vercel.app/" target="_blank" class="mt-6 px-6 py-3 bg-purple-500/20 border border-purple-500/50 rounded-xl text-purple-300 font-mono text-lg hover:bg-purple-500/30 transition">🔗 fruit-ninja-liard.vercel.app</a>
-  
-  <p class="text-xl mt-4 text-yellow-300">🎮 Let's see it in action!</p>
+<div class="flex flex-col items-center justify-center h-full gap-3">
+<p class="text-xl opacity-80">Built entirely with Ralph Loop</p>
+<div class="grid grid-cols-2 gap-8 mt-2">
+<div class="bg-white/5 p-4 rounded-xl text-center">
+<p class="text-base font-bold text-cyan-400">⏱️ Time</p>
+<p class="text-2xl font-bold">~40 min</p>
+</div>
+<div class="bg-white/5 p-4 rounded-xl text-center">
+<p class="text-base font-bold text-green-400">💰 Cost</p>
+<p class="text-2xl font-bold">~$8.98</p>
+</div>
+</div>
+<a href="https://fruit-ninja-liard.vercel.app/" target="_blank" class="mt-4 px-5 py-2 bg-purple-500/20 border border-purple-500/50 rounded-xl text-purple-300 font-mono text-base hover:bg-purple-500/30 transition">🔗 fruit-ninja-liard.vercel.app</a>
+<p class="text-lg text-yellow-300">🎮 Let's see it in action!</p>
 </div>
 
 ---
@@ -466,8 +460,8 @@ class: text-center
 
 # Connect With Me 🔗
 
-<div class="flex flex-col items-center gap-6">
-<img src="./assets/qr.png" alt="QR Code" class="w-64 h-64 rounded-xl shadow-2xl" />
+<div class="flex flex-col items-center gap-2">
+<img src="./assets/qr.png" alt="QR Code" class="w-48 rounded-xl shadow-2xl" />
 <p class="text-2xl font-bold text-white">Alexander Gekov</p>
 <p class="text-lg text-gray-400">Scan to find me on socials</p>
 </div>
